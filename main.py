@@ -7,12 +7,12 @@ while(n!=0):
 	sum=sum*10+rem
 	n=n/10
 if sum==n:
-	print(m,"is a palindrome")
+	print(m,"is a palin")
 else
-	print(m,"not a palindrome")'''
+	print(m,"not a palin")'''
 
 m=input()
 if m==m[::-1]:
-	print(m,"is a palindrome")
+	print(m,"is a palin")
 else
-	print(m,"not a palindrome")
+	print(m,"not a palin")
